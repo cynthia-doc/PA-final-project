@@ -1,5 +1,5 @@
 
-void if_else_test(int p){
+void if_test(int p){
     int* x = malloc(sizeof(int));
     int* y = malloc(sizeof(int));
     int* z = malloc(sizeof(int));
@@ -13,7 +13,4 @@ void if_else_test(int p){
     if (p == 1) {
         y = &z;
     }
-    else {
-        y = &x;
-    }
-} 
+}
